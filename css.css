@@ -1,0 +1,35 @@
+body{
+    background-color: green;
+    font-family: Georgia;
+   
+}
+.contain{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius:20px 20px 20px 20px ;
+}
+.form{
+    position:absolute;
+    top:10%;
+    left:15%;
+    width: 80%;
+}
+.h1{
+    font-size: 100%;
+    text-align: center;
+}
+input{
+   
+    box-shadow: 3px 3px 3px 3px;
+    border-radius:5px 5px 5px 5px ;
+    color: green;
+    
+}
+input:visited{
+    color:yellow;
+}

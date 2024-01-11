@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> SOWERS OF GOSPEL PAGE</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			background: #e6e6e6;
+		}
+		.showSlide {
+			display: none;
+		}
+		.showSlide img {
+			width: 100%;
+		}
+		.slidercontainer {
+			max-width: 1000px;
+			position: relative;
+			margin: auto;
+		}
+		.left, .right {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			padding: 16px;
+			margin-top: -22px;
+			color: white;
+			font-weight: bold;
+			font-size: 18px;
+			transition: 0.6s ease-out;
+			border-radius: 0px 3px 3px 0px;
+		}
+		.right {
+			right: 0;
+			border-radius: 3px 0px 0px 3px;
+		}
+		.left:hover, .right:focus {
+			background-color: rgba(115,115,115,0.8);
+		}
+		.content {
+			color: #eff5d4;
+			font-size: 30px;
+			padding: 8px 12px;
+			position: absolute;
+			top: 10px;
+			width: 100%;
+			text-align: center;
+		}
+		.active {
+			background-color: #717171;
+		}
+		/* fading animation*/
+		.fade{
+			-webkit-animation-name:fade;
+			-webkit-animation-duration: 0.5s;
+			animation-name: fade;
+			animation-duration: 0.5s;
+		}
+		@-webkit-keyframes fade {
+			from {
+				opacity: 1.4
+			}
+			to {
+				opacity: 1 
+			}
+		}
+		@keyframes fade {
+			from {
+				opacity: 1.4
+			}
+			to {
+				opacity: 1 
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<div class="slidercontainer">
+		<div class="showSlide fade">
+			<img src="Gaétan.jpg">
+			<div class="content">Lorem ipsum dolor sit amet</div>
+		</div>
+		<div class="showSlide fade">
+			<img src="Abel.jpg">
+			<div class="content">Lorem ipsum dolor sit amet</div>
+		</div>
+		<div class="showSlide fade">
+			<img src="petit.jpg">
+			<div class="content">Lorem ipsum dolor sit amet</div>
+		</div>
+		<div class="showSlide fade">
+			<img src="kaccela.jpg">
+			<div class="content">Lorem ipsum dolor sit amet</div>
+		</div>
+		
+	
+	<!--Navigation arrow -->
+	<a class="left" onclick="nextSlide(-1)">R</a>
+	<a class="right" onclick="nextSlide(1)">B</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{background-image: url(images/main.jpg);}
+/* Dropdown menu */
+.dropdownmenu {
+  position: absolute;
+  width: 0%; /* Largeur du menu */
+  height: 100%;
+  top: 2%;
+  left: 1%;
+}
+.dropdownmenu,
+.dropdownmenu ul {
+  /* Suppression des puces et des marges pour les listes du menu et des sous-menus */
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+}
+.dropdownmenu ul {
+  /* Masquage des sous-menu par defaut */
+  display:none;
+}
+.dropdownmenu li {
+  /* Positionnement relative des elements de menu pour pouvoir positionner les sous-menu correctement en absolu */
+  position: relative;
+}
+.dropdownmenu a {
+  /* On transforme les liens en bloc pour pouvoir les dimensionner */
+  display: block;
+
+  /* Dimensions des liens */
+  width: 160px;
+  height: 30px;
+  line-height: 30px; /* Doit etre equivalent a la hauteur du menu pour centrer le texte verticalement */
+  padding: 3px 10px;
+}
+.dropdownmenu li:hover ul {
+  /* Affichage du soumenu au survol */
+  display: block;
+
+  /* Positionnement du sous-menu */
+  position: absolute;
+  top: 0px;
+  left: 0px; /* Decalage du sous-menu de la largeur du menu */
+  z-index: 100; /* Gestion de la superposition des sous-menus par rapport au reste de la page */
+}
+.dropdownmenu ul a {
+  /* Changement de l'affichage des liens des sous-menus pour ne pas les afficher en inline-block comme les liens de menu, ils seront donc verticaux */
+  display: block;
+}
+
+/* Gestion des couleurs */
+.dropdownmenu li a {
+  color: #ccc; /* Couleur du texte du menu */
+  margin-left: 10px;
+}
+.dropdownmenu li:hover a {
+  color: rgb(76, 179, 226); /* Couleur du texte du menu au survol */
+}
+.dropdownmenu ul li {
+  background-color: rgb(250, 250, 250); /* Couleur d'arriere-plan des sous-menu */
+  height: 100%;
+}
+.dropdownmenu ul li:hover {
+  background-color: rgb(255, 253, 253); /* Couleur d'arriere-plan des sous-menu au survol */
+  height: 100%;
+}
+.dropdownmenu ul li a {
+  color: #666; /* Couleur du texte des sous-menu */
+}
+.dropdownmenu ul li:hover a {
+  color: rgb(8, 0, 0); /* Couleur du texte des sous-menu au survol */
+  background-color: aqua;
+  border: 2px solid rgb(12, 241, 69);
+}
+a{text-decoration: none; text-align: left;}

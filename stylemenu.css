@@ -1,0 +1,244 @@
+#menu{
+	width: 110%;
+	height: 200px;
+	background:linear-gradient(120deg,black,royalblue);;
+	position: absolute;
+	right: 0px
+	
+}
+a{
+	text-decoration: none;
+	color:blue;
+}
+
+body{
+	background-repeat: no-repeat;
+
+}
+#body{
+	height: 100%;
+	width: 80%;
+	color: black;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background-repeat: repeat;
+	top: 10%;
+	left: 10%;
+}
+#bodymenu1{
+	height: 25%;
+	width: 100%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background: linear-gradient(90deg, royalblue, royalblue, black);
+	top: 0%;
+	left: 0%;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+#menubody1{
+	height: 15%;
+	width: 15%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background:royalblue;
+	opacity: 100%;
+	top: 85%;
+	left: 0%;
+	border-radius: 15px 15px 15px 15px;
+	border-color: white;
+
+}
+#menubody2{
+	height: 15%;
+	width: 15%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background: black;
+	opacity: 60%;
+	top: 85%;
+	left: 15%;
+	border-radius: 15px 15px 15px 15px;
+
+}
+#menubody3{
+	height: 15%;
+	width: 15%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background: black;
+	opacity: 60%;
+	top: 85%;
+	left: 30%;
+	border-radius: 15px 15px 15px 15px;
+
+}
+#menubody4{
+	height: 15%;
+	width: 15%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background: black;
+	opacity: 60%;
+	top: 85%;
+	left: 45%;
+	border-radius: 15px 15px 15px 15px;
+
+}
+#menubody5{
+	height: 15%;
+	width: 15%;
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	background:black;
+	top: 85%;
+	left: 60%;
+	border-radius: 15px 15px 15px 15px;
+	opacity: 60%;
+
+}
+
+
+
+#leftmenu{
+	height: 100%;
+	width: 10%;
+	background:linear-gradient(900deg, black, royalblue);
+	color: white;
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	top: 25%;
+	left: 0%;
+	
+}
+
+
+#rightmenu{
+	height: 100%;
+	width: 10%;
+	background:linear-gradient(900deg, royalblue, black);
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 25%;
+	right: 0%;
+}
+#menuright1{
+	height: 30%;
+	width: 20%;
+	color: white;
+	position: absolute;
+	background-color:
+	border-radius: 20px 20px 20px 20px;
+	top: 26%;
+	left: 1%;
+	
+}
+#menuright11{
+	height: 30%;
+	width: 50%;
+	color: blue;
+	background:;
+	border: border: 290px solid #009860 ;
+	font-size: 30px;
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	top: 26%;
+	left: 10%;
+	
+}
+
+#menup{
+	height: 15%;
+	width: 100%;
+	background:linear-gradient(900deg, royalblue, black);
+	color: white;
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 20px 20px 0px 0px;
+	top: 0%;
+	left: 0%;
+	
+}
+
+#menuright2{
+	height: 30%;
+	width: 20%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 10px 10px 10px 10px;
+	top: 58%;
+	left: 1%;
+	
+}
+#menuright22{
+	height: 30%;
+	width: 50%;
+	color: blue;
+	font-size: 30px;
+	position: absolute;
+	border-radius: 10px 10px 10px 10px;
+	top: 58%;
+	left: 15%;
+	
+}
+
+#menudown{
+	height: 10%;
+	width: 100%;
+	background:linear-gradient(900deg,royalblue, black);
+	color: white;
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 10px 10px 0px 0px;
+	top: 0%;
+	left: 0%;
+	
+}
+
+#image{
+	width:100% ;
+	height:100% ;
+
+}
+#menuright3{
+	height: 30%;
+	width: 20%;
+	color: white;
+	position: absolute;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 10px 10px 10px 10px;
+	top: 90%;
+	left: 1%;
+	
+}
+#menuright33{
+	height: 30%;
+	width: 50%;
+	color: blue;
+	font-size: 30px;
+	position: absolute;
+	border-radius: 10px 10px 10px 10px;
+	top: 90%;
+	left: 15%;
+	
+}

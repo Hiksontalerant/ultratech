@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+	<style>
+		img{
+			width: 500px;
+			height: 500px;
+			
+		}
+		.slider{
+			width: 500px;
+			overflow: hidden; 
+			margin: 350px auto;
+		}
+		.slides{
+			width: 500px;
+			animation: glisse 5s infinite;
+		}
+		.slide{
+			float: left;
+		}
+		@keyframes glisse{
+			0%{
+				transform: translateX(0);
+			}
+		    33%{
+				transform: translateX(-500px);
+			}
+			66%{
+				transform: translateX(100px);
+			}
+			100%{
+				transform: translateX(0);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="slider">
+		<div class="slides">
+			<div class="slide"><img src="petit.jpg" alt=""></div>
+			<div class="slide"><img src="kaccela.jpg" alt=""></div>
+			<div class="slide"><img src="Abel.jpg" alt=""></div>
+		</div>
+	</div>
+
+</body>
+</html>
